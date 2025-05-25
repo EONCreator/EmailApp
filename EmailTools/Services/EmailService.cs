@@ -60,8 +60,6 @@ namespace EmailTools.Services
             }
         }
 
-
-
         private string GetDomain(string emailAddress)
         {
             var parts = emailAddress.Split('@');
